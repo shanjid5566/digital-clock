@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital clock</title>
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+<body class="bg-[#7CC6FE]">
+    <main class="flex justify-center items-center h-screen relative">
+        <div class="flex flex-col gap-4 absolute top-[180px] text-center">
+            <h1 class=" text-5xl md:text-6xl text-[#FAF1E6] font-extrabold ">Digital Clock</h1>
+            <div class="relative z-0 before:content-[''] before:absolute before:w-[100px] md:before:w-[160px] before:h-[100px] md:before:h-[160px] before:bg-[#F41b75] before:rounded-[5px] before:left-[-50px] before:top-[-10px] md:before:top-[-80px] before:-z-10 blur"></div>
+            <div class="flex flex-col gap-3s bg-[#23C9FF] p-6 w-96 md:w-2xl rounded-2xl text-[#C884A6] z-30">
+                <h2 class="text-2xl">Friday 22 September 2025</h2>
+                <ul class="flex flex-row  gap-6 mx-auto text-6xl md:text-7xl">
+                    <li class="hours">05</li>
+                    <li>:</li>
+                    <li class="mins">20</li>
+                    <li>:</li>
+                    <li class="sec">30</li>
+                </ul>
+            </div>
+            <div class="relative z-0 before:content-[''] before:absolute before:w-[100px] md:before:w-[160px] before:h-[100px] md:before:h-[160px] before:bg-[#F41b75] before:rounded-[50%] before:right-[-50px] before:bottom-[-10px] md:before:top-[-80px] before:-z-10 blur"></div>
+        </div>
+    </main>
+</body>
+</html>
